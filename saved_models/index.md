@@ -1,4 +1,5 @@
 ## Sample Models Listing
+> This folder stores downloaded Demo Models - Additional models available for download and testing are below.
 
 <table>
   <thead>
