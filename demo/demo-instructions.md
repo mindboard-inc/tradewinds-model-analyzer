@@ -6,8 +6,10 @@ A guide to running the demo as part of the presentation. Includes a sample model
 
 ### Clone Model Analyzer Demo Repository @GitHub:
 
-`git clone https://github.com/mindboard-inc/tradewinds-model-analyzer.git`
-`cd tradewinds-model-analyzer`
+```
+git clone https://github.com/mindboard-inc/tradewinds-model-analyzer.git
+cd tradewinds-model-analyzer
+```
 
 ### Python Environment Setup
 
@@ -18,8 +20,10 @@ A guide to running the demo as part of the presentation. Includes a sample model
 
 > Recommended virtual environment setup with `venv`
 
-`python -m venv env  # Create a virtual environment`
-`source env/bin/activate  # Activate the virtual environment`
+```
+python -m venv env  # Create a virtual environment
+source env/bin/activate  # Activate the virtual environment
+```
 
 ### Install Demo Dependencies:
 
@@ -29,8 +33,10 @@ A guide to running the demo as part of the presentation. Includes a sample model
 
 Run the sample script [demo-run.sh](./demo-run.sh) illustrating TensorFlow model analysis for the model:  https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tf_model.h5?download=true.
 
-`cd ./demo`
-`./demo-run.sh`
+````
+cd ./demo
+./demo-run.sh
+```
 
 > Downloading demo TensorFlow model
 > --2024-10-15 11:32:21--  https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tf_model.h5?download=true
